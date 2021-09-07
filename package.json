@@ -1,0 +1,23 @@
+{
+  "name": "interacessibilidade",
+  "version": "1.0.0",
+  "description": "Exemplo de site html com acessibilidade",
+  "main": "./app/dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "watch": "tsc -w",
+    "server": "lite-server --baseDir=app",
+    "start": "concurrently \"npm run watch\" \"npm run server\""
+  },
+  "author": "Guido Filho",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "lite-server": "^2.6.1",
+    "typescript": "^4.4.2"
+  }
+}

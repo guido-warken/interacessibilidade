@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES2018",
+        "outDir": "./app/dist/js",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "strictFunctionTypes": true
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": ["app/src/**/*"]
+}
